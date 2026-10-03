@@ -20,3 +20,9 @@ Per esportarlo:
 ```bash
 conda env export --from-history | grep -vE "^(name|prefix):" > environment.yml
 ```
+
+E per evitare che le semplici esecuzioni del notebook tocchino i metadati e git si agiti, da terminale col conda attivo:
+```bash
+conda install -c conda-forge nbstripout
+nbstripout --install
+```
