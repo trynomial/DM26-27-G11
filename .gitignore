@@ -1,0 +1,5 @@
+# i dataset sono pesantucci
+data/*
+!data/.ignoreme
+
+.conda

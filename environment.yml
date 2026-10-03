@@ -1,0 +1,12 @@
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - ipykernel
+  - matplotlib
+  - pandas
+  - scipy
+  - seaborn
+  - scikit-learn
+  - plotly
+  - nbformat
